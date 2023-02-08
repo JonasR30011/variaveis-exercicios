@@ -1,9 +1,12 @@
 let a = 10
 let b = 25
-let c 
-a = c
-b = a
+let c
+
+c = a
+console.log("C:",c)
+a = b
+console.log("A:",a)
 b = c
-console.log(a)
-console.log(b)
-console.log(c)
+console.log("B:",b)
+
+
