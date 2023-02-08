@@ -3,7 +3,7 @@
 const nome = ("Nome Completo:")
 const nome1 = prompt(nome)
 const data = ("Data de nascimento:")
-const data1 = prompt(data)
+const data1 = Number(prompt(data))
 const endereco = ("Endereço:")
 const endereco1 = prompt(endereco)
 const cpf = ("CPF")
@@ -34,14 +34,14 @@ console.log(filho1, "é do tipo:", typeof filho1)
 console.log(salario1, "é do tipo:", typeof salario1)
 console.log(comissao1, "é do tipo:", typeof comissao1)
 console.log(admissao1, "é do tipo:", typeof admissao)
-console.log("Nome completo:" , nome1,
-"Data de nascimento:" , data1,
-"Endereço:", endereco1,
-"CPF:", cpf1,
-"Escolaridade:" , escolaridade1,
-"Possui CHN", cnh1,
-"Quantos filhes possui?" , filho1,
-"Cargo atual:" , cargo1,
-"Salário:" ,salario1,
-"Recebe comissão? Se sim, informe a porcentagem, caso não, responda com zero", comissao1,
-"Informe o ano de admissão" ,admissao1,)
+console.log(`Nome completo:${nome1}\n
+Data de nascimento: ${data1}\n
+Endereço: ${endereco1}\n
+CPF: ${cpf1}\n
+Escolaridade: ${escolaridade1}\n
+Possui CHN  ${cnh1}\n
+Quantos filhes possui? ${filho1}\n
+Cargo atual: ${cargo1}\n
+Salário: ${salario1}\n
+Recebe comissão? Se sim, informe a porcentagem, caso não, responda com zero. ${comissao1}\n
+Informe o ano de admissão: ${admissao1}`)
